@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse at center, #0d0d0d 0%, #000 100%);
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  position: absolute;
+}
+
+.rect {
+  width: 1vw;
+  height: 1vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff, #00f0ff);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.6);
+  mix-blend-mode: screen;
+  filter: blur(0.5px);
+  opacity: 0.8;
+  transform: rotate(0deg);
+}
